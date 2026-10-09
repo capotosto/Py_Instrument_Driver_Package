@@ -32,21 +32,27 @@ Package Contents:
 
 from .keithley_2100 import Keithley2100
 from .keithley_6221 import Keithley6221
+from .keysight_34461a import Keysight34461A
+from .keysight_E4980A import KeysightE4980A
 from .rigol_dg4000 import DG4000
 from .rigol_dp800 import DP800
+from .rigol_dl3000 import DL3000
 from .Tek_DPO4000 import DPO4000
 
 # Also expose the utility functions/module
 from . import visa_utils
 
-# --- RECOMMENDED ADDITION: Package Version ---
+
 __version__ = "1.0.0"
 
 __all__ = [
     "Keithley2100",
     "Keithley6221",
+    "Keysight34461A",
+    "KeysightE4980A",
     "DG4000",
     "DP800",
+    "DL3000",
     "DPO4000",
     "visa_utils",
     "__version__"
