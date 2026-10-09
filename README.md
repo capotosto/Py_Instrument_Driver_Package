@@ -55,14 +55,17 @@ else:
 
 # Included Instrument Modules
 
-| Driver Class | Module File | Instrument Type | Supported Models | 
-| ----- | ----- | ----- | ----- | 
-| `Keithley2100` | `keithley_2100.py` | Digital Multimeter (DMM) | Keithley 2100 Series | 
-| `DG4000` | `rigol_dg4000.py` | Function Generator | Rigol DG4000 Series | 
-| `DP800` | `rigol_dp800.py` | Power Supply Unit (PSU) | Rigol DP800 Series | 
-| `DPO4000` | `Tek_DPO4000.py` | Oscilloscope | Tektronix DPO/MSO 4000 Series | 
-| `Keithley6221` | `keithley_6221.py` | V/I Source | Keithley 622x Series 
-| `visa_utils` | `visa_utils.py` | Helper Module | N/A |
+| Driver Class | Module File | Instrument Type | Supported Models |
+|---|---|---|---|
+| `Keithley2100` | `keithley_2100.py` | Digital Multimeter (DMM) | Keithley 2100 Series |
+| `Keithley6221` | `keithley_6221.py` | Precision Current Source | Keithley 6220/6221 Series |
+| `E4980A` | `keysight_e4980a.py` | Precision LCR Meter | Keysight E4980A Series |
+| `Keysight34461A` | `keysight_34461a.py` | Digital Multimeter (DMM) | Keysight 34461A |
+| `DG4000` | `rigol_dg4000.py` | Function Generator | Rigol DG4000 Series |
+| `DL3000` | `rigol_dl3000.py` | Electronic Load | Rigol DL3000 Series |
+| `DP800` | `rigol_dp800.py` | Power Supply Unit (PSU) | Rigol DP800 Series |
+| `DPO4000` | `Tek_DPO4000.py` | Oscilloscope | Tektronix DPO/MSO 4000 Series |
+| `visa_utils` | `visa_utils.py` | VISA / Connection Helper Module | N/A |
 
 
 Version: 1.0.0
